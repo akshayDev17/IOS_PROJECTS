@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61C39DA28C2735F00197194 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = B61C39D928C2735F00197194 /* landmarkData.json */; };
+		B61C39DC28C2739E00197194 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C39DB28C2739E00197194 /* Landmark.swift */; };
+		B61C39DE28C27A9D00197194 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C39DD28C27A9D00197194 /* ModelData.swift */; };
 		B63406ED2896BF1900FA4B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63406EC2896BF1900FA4B2D /* ViewController.swift */; };
 		B66E168C2892E722000C18FC /* MyFirstIOSappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E168B2892E722000C18FC /* MyFirstIOSappApp.swift */; };
 		B66E168E2892E722000C18FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66E168D2892E722000C18FC /* ContentView.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B61C39D928C2735F00197194 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		B61C39DB28C2739E00197194 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		B61C39DD28C27A9D00197194 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		B63406EC2896BF1900FA4B2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B66E16882892E722000C18FC /* MyFirstIOSapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstIOSapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66E168B2892E722000C18FC /* MyFirstIOSappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstIOSappApp.swift; sourceTree = "<group>"; };
@@ -77,6 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B61C39DF28C27DD000197194 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B61C39DD28C27A9D00197194 /* ModelData.swift */,
+				B61C39DB28C2739E00197194 /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B61C39E028C27DE900197194 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B61C39D928C2735F00197194 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B61C39E128C27E0500197194 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B676116928A8B47C005A30E0 /* MapView.swift */,
+				B6A4BF6928A82A3E005CE0C8 /* CustomImageView.swift */,
+				B66E168D2892E722000C18FC /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B66E167F2892E722000C18FC = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +134,12 @@
 			isa = PBXGroup;
 			children = (
 				B66E168B2892E722000C18FC /* MyFirstIOSappApp.swift */,
-				B66E168D2892E722000C18FC /* ContentView.swift */,
+				B61C39E128C27E0500197194 /* View */,
+				B61C39DF28C27DD000197194 /* Models */,
 				B66E168F2892E725000C18FC /* Assets.xcassets */,
+				B61C39E028C27DE900197194 /* Resources */,
 				B66E16912892E725000C18FC /* Preview Content */,
 				B63406EC2896BF1900FA4B2D /* ViewController.swift */,
-				B6A4BF6928A82A3E005CE0C8 /* CustomImageView.swift */,
-				B676116928A8B47C005A30E0 /* MapView.swift */,
 			);
 			path = MyFirstIOSapp;
 			sourceTree = "<group>";
@@ -242,6 +275,7 @@
 			files = (
 				B66E16932892E725000C18FC /* Preview Assets.xcassets in Resources */,
 				B66E16902892E725000C18FC /* Assets.xcassets in Resources */,
+				B61C39DA28C2735F00197194 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +305,8 @@
 				B676116A28A8B47C005A30E0 /* MapView.swift in Sources */,
 				B66E168E2892E722000C18FC /* ContentView.swift in Sources */,
 				B66E168C2892E722000C18FC /* MyFirstIOSappApp.swift in Sources */,
+				B61C39DC28C2739E00197194 /* Landmark.swift in Sources */,
+				B61C39DE28C27A9D00197194 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,1 @@
+- Usage of groups(for Swift files): View, Model, Resources.
